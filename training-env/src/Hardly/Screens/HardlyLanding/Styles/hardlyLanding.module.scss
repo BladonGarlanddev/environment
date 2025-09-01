@@ -1,0 +1,37 @@
+.searchIcon {
+  width: 40px;
+  height: 40px;
+  * {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.searchBar {
+  display: flex;
+  border: 1px solid black;
+  * {
+    display: flex;
+  }
+}
+
+.serchOptions * {
+    display: flex;
+}
+
+.hardlyJbs {
+ display: flex;
+ flex: 1;
+ width: 100vw;
+}
+
+.jobsearchLeftpane {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+.jobsearchRightpane {
+    display: flex;
+
+    width: 60vw;
+}
